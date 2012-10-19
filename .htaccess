@@ -1,0 +1,5 @@
+Options +FollowSymlinks
+RewriteEngine on
+
+RewriteRule search/$ /instagram/pesquisa.php
+RewriteRule user/(.*)$ /instagram/user.php?usuario=$1
